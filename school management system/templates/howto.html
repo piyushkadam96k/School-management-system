@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>How to Use the School ERP App</h2>
+<p>This page describes the common workflows for administrators and teachers. Use this guide to get started quickly.</p>
+
+<h3>1. Login</h3>
+<ul>
+<li>Open <code>/login</code>. Use the default admin: <b>admin</b> / <b>admin123</b>.</li>
+<li>Change the password in the database for production or create a new user account.</li>
+</ul>
+
+<h3>2. Dashboard</h3>
+<ul>
+<li>After login, the dashboard shows counts for Classes, Students, and Exams.</li>
+<li>Use the navigation to go to Classes, Fees, and other sections.</li>
+</ul>
+
+<h3>3. Manage Classes</h3>
+<ul>
+<li>Navigate to <code>/classes</code> to view classes.</li>
+<li>Admin users can add a class via <code>/add_class</code>, edit or delete classes from the class page.</li>
+</ul>
+
+<h3>4. Add Students & Subjects</h3>
+<ul>
+<li>From a class detail page, use <code>+ Add Student</code> to add a student (name and roll number).</li>
+<li>Use <code>+ Add Subject</code> to add subjects to the class.</li>
+</ul>
+
+<h3>5. Exams & Entering Marks</h3>
+<ul>
+<li>Create an exam for the class at <code>/exams/{class_id}</code>. You may add a weight and type.</li>
+<li>To enter marks for a student: open <code>/enter_marks/{class_id}?exam_id={exam_id}</code>, pick a student and save marks for each subject.</li>
+</ul>
+
+<h3>6. View Results & Export</h3>
+<ul>
+<li>View individual student results: <code>/result/{student_id}?exam_id={exam_id}</code>. Download PDF using the download link (ReportLab is required for PDF).</li>
+<li>View class results: <code>/class/{class_id}/results?exam_id={exam_id}</code>. Export class results CSV through the Export CSV button.</li>
+</ul>
+
+<h3>7. Attendance</h3>
+<ul>
+<li>Navigate to <code>/attendance/{class_id}</code>. Pick a date and mark present students, then Save.</li>
+</ul>
+
+<h3>8. Fees</h3>
+<ul>
+<li>View a summary at <code>/fees</code>.</li>
+<li>Open class-specific fees at <code>/fees/class/{class_id}</code> and add fee items or record payments for students.</li>
+</ul>
+
+<h3>9. Search</h3>
+<ul>
+<li>Use the search box in the header or go to <code>/search?q=NAME_OR_ROLL</code> to find a student.</li>
+</ul>
+
+<h3>10. Users & Roles</h3>
+<ul>
+<li>The app stores simple users in the database (admin/teacher). Only admin can add, edit, or delete classes/subjects and fee items.</li>
+</ul>
+
+<hr>
+<p>If you need detailed step-by-step guidance for a specific task (e.g., migrate data, change DB location, or implement a custom report), add a request in this repository or contact the author at <a href="mailto:amitkadam96k@gmail.com">amitkadam96k@gmail.com</a>.</p>
+
+<p><a class="btn btn-primary" href="/">Back to Dashboard</a></p>
+{% endblock %}

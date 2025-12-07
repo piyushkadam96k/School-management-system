@@ -1,0 +1,12 @@
+/* Extracted styles from app.py's inline <style> */
+body { background: linear-gradient(135deg, #667eea, #764ba2); min-height: 100vh; padding: 20px; }
+.box { background: white; border-radius: 20px; padding: 40px; max-width: 1150px; margin: auto; box-shadow: 0 15px 40px rgba(0,0,0,0.3); }
+.btn { padding: 10px 24px; border-radius: 12px; font-weight: bold; }
+h1,h2 { color: #5a67d8; }
+input[type=number] { width: 100px; display: inline-block; margin: 5px; }
+.role-badge { font-size: 0.75rem; }
+
+/* Small tweaks */
+.alert { margin-top: 10px; }
+
+/* Keep things default for now; expand as necessary */
