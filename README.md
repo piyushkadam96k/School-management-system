@@ -127,17 +127,6 @@ Made with 💜 — enjoy managing your school! 🎒
 
 ---
 
-## 🧑‍💻 Author
-
-- **Name:** Amit Kadam
-- **Email:** [amitkadam96k@gmail.com](mailto:amitkadam96k@gmail.com)
-- **GitHub:** [piyushkadam96k](https://github.com/piyushkadam96k)
-
-Connect with me:
-
-[![Email](https://img.shields.io/badge/Email-amitkadam96k%40gmail.com-orange?style=for-the-badge&logo=gmail&logoColor=white)](mailto:amitkadam96k@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-amitkadam96k-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amitkadam96k)
-
 ---
 
 ## 🚀 Pro Version Available
@@ -152,13 +141,10 @@ If you need a more powerful solution, I offer a Pro version of this app with adv
 - Audit logs, security hardening, and deployment support
 - Custom branding, multi-tenant support, and premium UI themes
 
-If you're interested in the Pro version (features, pricing, or enterprise deployment), please contact me at [amitkadam96k@gmail.com](mailto:amitkadam96k@gmail.com) or via GitHub: [piyushkadam96k](https://github.com/piyushkadam96k).
-
-
 ---
 
 ## 🏷 License
 
-All Rights Reserved © 2025 Amit Kadam. No part of this software may be copied, distributed, modified, or used in derivative works without written permission. For permission requests, contact: [amitkadam96k@gmail.com](mailto:amitkadam96k@gmail.com)
+All Rights Reserved © 2025 Amit Kadam. No part of this software may be copied, distributed, modified, or used in derivative works without written permission. For permission requests
 
 See the full `LICENSE` file for details.
